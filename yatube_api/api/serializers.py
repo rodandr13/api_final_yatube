@@ -58,4 +58,3 @@ class FollowSerializer(serializers.ModelSerializer):
                 'Нельзя подписаться на себя'
             )
         return value
-
