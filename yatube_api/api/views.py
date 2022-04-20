@@ -12,7 +12,7 @@ from .serializers import (
     CommentSerializer, GroupSerializer,
     PostSerializer, FollowSerializer
 )
-from posts.models import Post, Group, Follow
+from posts.models import Post, Group
 
 
 class CreateRetrieveViewSet(mixins.ListModelMixin, mixins.CreateModelMixin,

@@ -39,8 +39,8 @@ python3 manage.py runserver
 ```json
 {
 "text": "string",
-"image": "string", // optional
-"group": 0 // optional
+"image": "string", 
+"group": 0 
 }
 ```
 #### Ответ
